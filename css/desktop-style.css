@@ -1,0 +1,33 @@
+@media screen and (min-width: 992px) {
+
+    nav .menu{
+        width: 400px;
+    }
+ 
+    .container{
+     width: 80%;
+     margin: 0 auto;
+ }
+ 
+ nav {
+     width: 80%;
+     margin: 0 auto;
+ }
+ 
+ #description .row{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+ 
+ #description .big-card{
+     width: 66%;
+     min-height: 400px;
+ }
+ 
+ #description .card{
+     width: 32%;
+     min-height: 400px;
+ }
+     
+ }

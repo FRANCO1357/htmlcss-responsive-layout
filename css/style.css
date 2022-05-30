@@ -1,0 +1,70 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* header */
+
+header{
+    background-color: dodgerblue;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+nav{
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo, nav .menu{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
+/* description */
+
+#description{
+    padding-top: 80px;
+    background-color: white;
+    min-height: 500px;
+}
+
+#description .row{
+    padding: 60px 30px;
+    background-color: red;
+}
+
+#description .big-card, #description .card{
+    background-color: lightskyblue;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#description .big-card{
+    min-height: 800px;
+}
+
+#description .card{
+    min-height: 400px;
+}
