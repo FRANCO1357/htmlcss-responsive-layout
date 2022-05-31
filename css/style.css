@@ -6,8 +6,10 @@
     box-sizing: border-box;
 }
 
+/* ROOT */
+
 body{
-    background-color: lightgrey;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .container{
@@ -15,6 +17,9 @@ body{
     margin: 0 auto;
 }
 
+.bg-lightblue{
+    background-color: #B5DDFF;
+}
 
 
 /* header */
@@ -25,6 +30,7 @@ header{
     position: fixed;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 nav{
@@ -35,39 +41,82 @@ nav{
     align-items: center;
 }
 
-nav .logo, nav .menu{
-    background-color: white;
-    width: 40px;
+nav img{
     height: 40px;
+}
+
+nav i{
+    color: white;
+    font-size: 30px;
+}
+
+nav ul{
+    display: none;
 }
 
 /* description */
 
 #description{
     padding-top: 80px;
-    border: 2px solid black;
     min-height: 500px;
 }
 
 #description .row{
     padding: 60px 30px;
-    background-color: red;
 }
 
-#description .big-card, #description .card{
-    background-color: lightskyblue;
-    border-radius: 20px;
+#description .column{
     width: 100%;
     margin-bottom: 30px;
 }
 
-#description .big-card{
-    min-height: 800px;
+#description .big .card{
+    text-align: left;
+    padding: 40px 40px 0 40px;
 }
 
 #description .card{
-    min-height: 400px;
+    height: 100%;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
 }
+
+#description .big .card h3{
+    margin-top: 0;
+}
+
+#description .card h3{
+    color: dodgerblue;
+    font-size: 2rem;
+    margin: 40px 0;
+}
+
+#description .card p{
+    color: rgb(71, 71, 71);
+}
+
+#description .card a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: dodgerblue;
+    margin: 30px 0;
+    padding: 0.8rem 3rem;
+    border-radius: 30px;
+}
+
+#description img{
+    display: block;
+    width: 100%;
+}
+
+#description i{
+    color: dodgerblue;
+}
+
+
 
 /* planning */
 
@@ -124,7 +173,6 @@ nav .logo, nav .menu{
 
 #testimonials .card{
     background-color: mediumpurple;
-    /* width: 100%; */
     min-height: 200px;
     border-radius: 20px;
     margin: 30px 0;
@@ -150,3 +198,67 @@ nav .logo, nav .menu{
     font-size: 26px;
 }
 
+/* benefits */
+
+#benefits{
+    padding-top: 80px;
+    border: 2px solid black;
+    min-height: 500px;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#benefits .card{
+    background-color: mediumpurple;
+    min-height: 200px;
+    border-radius: 20px;
+    margin: 30px 0;
+    padding: 30px 20px;
+}
+
+/* about us */
+
+#about-us{
+    padding-top: 80px;
+    border: 2px solid black;
+    min-height: 500px;
+    padding: 60px 30px;
+}
+
+#about-us .image{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+#about-us a{
+    text-decoration: none;
+    color: white;
+    background-color: mediumpurple;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/* get started */
+
+#get-started{
+    padding-top: 80px;
+    border: 2px solid black;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    padding-top: 80px;
+    border: 2px solid black;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+footer p{
+    margin: 20px 0;
+}

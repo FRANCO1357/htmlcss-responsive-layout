@@ -1,6 +1,5 @@
 @media screen and (min-width: 992px) {
 
-
     /* header */
 
     nav .menu{
@@ -16,6 +15,28 @@
      width: 80%;
      margin: 0 auto;
     }
+
+    nav i{
+        color: transparent;
+    }
+
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        color: white;
+    }
+
+    nav li{
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+
+    nav .button{
+        background-color: white;
+        color: black;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
     
     /* description */
 
@@ -23,17 +44,54 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin: 0 -10px;
     }
     
-    #description .big-card{
-        width: 66%;
-        min-height: 400px;
+    #description .column{
+        width: calc(100% / 3);
+        padding: 0 10px;
     }
-    
-    #description .card{
-        width: 32%;
-        min-height: 400px;
+
+    #description .big{
+        width: calc(100% / 3 * 2);
     }
+
+    #description .big .card{
+        display: flex;
+    }
+
+    #description .big .text{
+        width: 60%;
+    }
+
+    #description .big figure{
+        width: 40%;
+    }
+
+    #description figure{
+        position: relative;
+    }
+
+    #description img{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #description .card h3{
+        font-size: 1.2rem;
+    }
+
+    #description .card p{
+        font-size: 0.8rem;
+    }
+
+    #description .card a{
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+
 
     /* planning */
 
@@ -62,5 +120,55 @@
     #testimonials .text{
         padding-left: 30px;
     }
+
+    /* benefits */
+
+    #benefits .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+
+    #benefits .column{
+        width: calc(100% / 3);
+        padding: 0 10px;
+    }
+
+    #benefits .card{
+        margin-bottom: 0;
+    }
+
+    /* about us */
+
+#about-us .container{
+    display: flex;
+}
+
+#about-us .text{
+    width: 75%;
+    padding: 0 30px;
+}
+
+#about-us .cit{
+    width: 25%;
+}
+
+/* get started */
+
+
+
+#get-started .container{
+    width: 300px;
+}
+
+/* footer */
+
+footer{
+    padding: 0;
+}
+
+footer .container{
+    width: 300px;
+}
      
  }

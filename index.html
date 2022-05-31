@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/tablet-style.css">
     <link rel="stylesheet" href="./css/desktop-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Responsive Layout</title>
 </head>
 <body>
@@ -14,8 +18,15 @@
     <!-- header -->
     <header>
             <nav>
-                <div class="logo"></div>
-                <div class="menu"></div>
+                <img src="img/logo.png" alt="">
+                <i class="fa-solid fa-bars"></i>
+                <ul>
+                    <li><a>Planning</a></li>
+                    <li><a>Testimonials</a></li>
+                    <li><a>Features</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a class="button">Get Started</a></li>
+                </ul>
             </nav>
     </header>
     
@@ -26,11 +37,46 @@
         <section id="description">
             <div class="container">
                 <div class="row">
-                    <div class="big-card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
+                    <div class="column big">
+                        <div class="card bg-lightblue">
+                            <div class="text">
+                                <h3>Get a demo application</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel corporis architecto labore earum cupiditate, maiores sunt quasi doloremque, ea consectetur porro error quidem blanditiis recusandae maxime ab beatae explicabo?</p>
+                                <a href=""><i class="fa-brands fa-apple"></i> App Store</a>
+                            </div>
+                            <figure>
+                                <img src="img/phone.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card bg-lightblue">
+                            <i class="fa-solid fa-file-code fa-5x"></i>
+                            <h3>Clean code</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum obcaecati, et eligendi, maxime debitis doloribus laboriosam asperiores saepe.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card bg-lightblue">
+                            <i class="fa-solid fa-compass-drafting fa-5x"></i>
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum obcaecati, et eligendi, maxime debitis doloribus laboriosam asperiores saepe.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card bg-lightblue">
+                            <i class="fa-solid fa-laptop-code fa-5x"></i>
+                            <h3>Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum obcaecati, et eligendi, maxime debitis doloribus laboriosam asperiores saepe.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card bg-lightblue">
+                            <i class="fa-solid fa-bullhorn fa-5x"></i>
+                            <h3>Branding</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum obcaecati, et eligendi, maxime debitis doloribus laboriosam asperiores saepe.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -88,9 +134,69 @@
             </div>
         </section>
 
+        <!-- benefits -->
+        <section id="benefits">
+            <div class="container">
+                <h3>Benefits of working with us</h3>
+                <div class="row">
+                    <div class="column">
+                        <div class="card"></div>
+                    </div>
+                    <div class="column">
+                        <div class="card"></div>
+                    </div>
+                    <div class="column">
+                        <div class="card"></div>
+                    </div>
+                    <div class="column">
+                        <div class="card"></div>
+                    </div>
+                    <div class="column">
+                        <div class="card"></div>
+                    </div>
+                    <div class="column">
+                        <div class="card"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- about us -->
+        <section id="about-us">
+            <div class="container">
+                <div class="text">
+                    <h2>About us</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae amet impedit quod libero asperiores ea inventore a, voluptatem sequi repellat quas quo vel tempora dolore minima hic sint commodi reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eaque excepturi ad, error iure quasi quaerat necessitatibus repellendus, accusantium eos saepe ex laboriosam aliquam. Culpa dolorum rerum sint quidem incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laborum assumenda molestias quisquam reiciendis, ducimus sed ea animi facere, cum accusantium necessitatibus iure, est minima. Officiis totam quam tempora dicta.</p>
+                </div>
+                <div class="cit">
+                    <div class="image"></div>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptates voluptate sunt quis veritatis debitis vitae ea reprehenderit cumque. Tenetur, totam.</h3>
+                    <a href="">Find me on linkedin</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- get started -->
+        <section id="get-started">
+            <div class="container">
+                <p>GET STARTED</p>
+                <h3>Simple, Transpartent Pricing</h3>
+                <h2>It's Free</h2>
+                <p>We're still in beta and we will be for awhile.<br> As we add more functionaly, we'll look into other plans with more controls.</p>
+                <a href="">Get Started</a>
+                <p>Copyright 2021 Francesco Melani</p>
+            </div>
+        </section>
         
     </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error fugiat sint dolores officia laboriosam eos harum excepturi praesentium ratione cumque nulla.</p>
+            <p><a>Lorem ipsum</a> dolor sit amet consectetur, <a>adipisicing elit.</a> Voluptatibus vel consectetur a?</p>
+        </div>
+    </footer>
 
 
 </body>
