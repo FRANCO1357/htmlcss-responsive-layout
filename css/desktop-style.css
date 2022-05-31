@@ -1,5 +1,8 @@
 @media screen and (min-width: 992px) {
 
+
+    /* header */
+
     nav .menu{
         width: 400px;
     }
@@ -7,27 +10,57 @@
     .container{
      width: 80%;
      margin: 0 auto;
- }
+    }
  
- nav {
+    nav {
      width: 80%;
      margin: 0 auto;
- }
- 
- #description .row{
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
- }
- 
- #description .big-card{
-     width: 66%;
-     min-height: 400px;
- }
- 
- #description .card{
-     width: 32%;
-     min-height: 400px;
- }
+    }
+    
+    /* description */
+
+    #description .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    #description .big-card{
+        width: 66%;
+        min-height: 400px;
+    }
+    
+    #description .card{
+        width: 32%;
+        min-height: 400px;
+    }
+
+    /* planning */
+
+    #planning .container{
+        width: 70%;
+        display: flex;
+    }
+
+    #planning .left, #planning .right{
+        margin: 50px 10px 0 10px;
+    }
+
+    /* testimonials */
+
+    #testimonials .card{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    #testimonials .image{
+        width: 250px;
+        height: 250px;
+    }
+
+    #testimonials .text{
+        padding-left: 30px;
+    }
      
  }
