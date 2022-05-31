@@ -98,10 +98,26 @@
     #planning .container{
         width: 70%;
         display: flex;
+        align-items: flex-end;
     }
 
     #planning .left, #planning .right{
         margin: 50px 10px 0 10px;
+    }
+
+    #planning .left h3{
+        font-size: 2rem;
+        margin: 100px 0 50px 0;
+    }
+    
+    #planning .left{
+        width: 60%;
+        padding-right: 60px;
+    }
+
+
+    #planning .right{
+        width: 40%;
     }
 
     /* testimonials */

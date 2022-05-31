@@ -20,6 +20,12 @@
     width: 50%;
 }
 
+/* planning */
+
+#planning .left h3{
+    font-size: 5rem;
+}
+
 /* testimonials */
 
 #testimonials .card{
