@@ -172,20 +172,18 @@ nav ul{
 /* testimonials */
 
 #testimonials{
-    padding-top: 80px;
-    border: 2px solid black;
-    min-height: 500px;
     padding: 60px 30px;
     text-align: center;
 }
 
 #testimonials h3{
     margin: 20px 0;
+    color: #9792E3;
     font-size: 40px;
 }
 
 #testimonials .card{
-    background-color: mediumpurple;
+    background-color: #9792E3;
     min-height: 200px;
     border-radius: 20px;
     margin: 30px 0;
@@ -193,17 +191,33 @@ nav ul{
 }
 
 #testimonials .image{
-    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 380px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
     margin: 0 auto;
 }
 
+#testimonials .testimonials-1{
+    background-image: url('../img/testimonial1.jpg');
+}
+
+#testimonials .testimonials-2{
+    background-image: url('../img/testimonial2.jpg');
+}
+
+#testimonials .testimonials-3{
+    background-image: url('../img/testimonial3.jpg');
+}
+
+
 #testimonials .card p{
     color: white;
     margin: 20px 0;
-    font-size: 22px;
+    font-size: 1.2rem;
+    line-height: 30px;
 }
 
 #testimonials strong{

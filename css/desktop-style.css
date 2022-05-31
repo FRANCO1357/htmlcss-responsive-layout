@@ -91,8 +91,6 @@
         padding: 0.5rem 1.5rem;
     }
 
-
-
     /* planning */
 
     #planning .container{
@@ -136,6 +134,13 @@
     #testimonials .text{
         padding-left: 30px;
     }
+
+    #testimonials .card p{
+        font-size: 0.8rem;
+    }
+
+
+
 
     /* benefits */
 
