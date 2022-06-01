@@ -78,7 +78,16 @@
 /* get started */
 
 #get-started .container{
-    width: 400px;
+    width: 600px;
+}
+
+#get-started h3{
+    font-size: 3rem;
+}
+
+
+#get-started h2{
+    font-size: 5rem;
 }
 
 /* footer */
