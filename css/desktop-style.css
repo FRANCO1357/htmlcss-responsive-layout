@@ -44,12 +44,12 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 0 -10px;
+        margin: 0 -0.8rem;
     }
     
     #description .column{
         width: calc(100% / 3);
-        padding: 0 10px;
+        padding: 0 0.8rem;
     }
 
     #description .big{
@@ -100,17 +100,17 @@
     }
 
     #planning .left, #planning .right{
-        margin: 50px 10px 0 10px;
+        margin: 4rem 0.8rem 0 0.8rem;
     }
 
     #planning .left h3{
         font-size: 2rem;
-        margin: 100px 0 50px 0;
+        margin: 9rem 0 3rem 0;
     }
     
     #planning .left{
         width: 60%;
-        padding-right: 60px;
+        padding-right: 4rem;
     }
 
 
@@ -127,12 +127,12 @@
     }
 
     #testimonials .image{
-        width: 250px;
-        height: 250px;
+        width: 15rem;
+        height: 15rem;
     }
 
     #testimonials .text{
-        padding-left: 30px;
+        padding-left: 2rem;
     }
 
     #testimonials .card p{
@@ -147,12 +147,12 @@
     #benefits .row{
         display: flex;
         flex-wrap: wrap;
-        margin: 0 -10px;
+        margin: 0 -0.8rem;
     }
 
     #benefits .column{
         width: calc(100% / 3);
-        padding: 0 10px;
+        padding: 0 0.8rem;
     }
 
     #benefits .card{
@@ -167,7 +167,7 @@
 
 #about-us .text{
     width: 75%;
-    padding: 0 60px 0 30px;
+    padding: 0 4rem 0 2rem;
 }
 
 #about-us .cit{
@@ -181,20 +181,20 @@
 #about-us h3{
     color: #9792E3;
     font-size: 1rem;
-    line-height: 30px;
-    margin-bottom: 30px 50px 0 0;
+    line-height: 2rem;
+    margin-bottom: 2rem 3rem 0 0;
 }
 
 /* get started */
 
 #get-started .container{
-    width: 600px;
+    width: 40rem;
 }
 
 /* footer */
 
 footer .container{
-    width: 500px;
+    width: 30rem;
 }
      
  }
