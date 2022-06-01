@@ -228,9 +228,7 @@ nav ul{
 /* benefits */
 
 #benefits{
-    padding-top: 80px;
     background-color: #9792E3;
-    min-height: 500px;
     padding: 60px 30px;
     text-align: center;
 }
@@ -278,9 +276,6 @@ nav ul{
 /* about us */
 
 #about-us{
-    padding-top: 80px;
-    border: 2px solid black;
-    min-height: 500px;
     padding: 60px 30px;
 }
 
@@ -295,10 +290,48 @@ nav ul{
 #about-us a{
     text-decoration: none;
     color: white;
-    background-color: mediumpurple;
+    background-color: #9792E3;
     padding: 8px 16px;
     border-radius: 20px;
     display: inline-block;
+}
+
+#about-us h2{
+    color: #9792E3;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#about-us p{
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#about-us .image{
+    background-image: url('../img/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#about-us .image i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #9792E3;
+    margin-top: -15px;
+}
+
+#about-us h3{
+    color: #9792E3;
+    font-size: 1.8rem;
+    line-height: 40px;
+    margin-bottom: 30px;
 }
 
 /* get started */
