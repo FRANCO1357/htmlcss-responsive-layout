@@ -368,12 +368,17 @@ nav ul{
 
 /* footer */
 footer{
-    padding-top: 80px;
-    border: 2px solid black;
-    padding: 60px 30px;
+    background-color: #333333;
+    padding: 20px 30px;
     text-align: center;
 }
 
 footer p{
+    color: white;
     margin: 20px 0;
+}
+
+footer a{
+    color: #9792E3;
+    text-decoration: underline;
 }
